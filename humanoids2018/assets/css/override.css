@@ -135,8 +135,9 @@
 	}
 
 	ul{
-		list-style-type: none;
-		padding-left:0;
+		/*list-style-type: none;*/
+		padding-left:1.5em;
+		list-style-type: square;
 	}
 
 	ul li{
@@ -147,7 +148,9 @@
 	#redbar {
 
 		height: 1em;
-		background-color: #fda05f;
+		/*background-color: #d59f2c;*/
+
+		background-color: #c9bf3b;
 		
 
 		position: relative;
@@ -314,22 +317,48 @@
 
 	}
 
+	table tbody tr {
+		border-width: 0px;
+	}
+
 
 	.wrapper.style2 {
-		background-color: #12213c;
-		color: rgba(255, 255, 255, 0.75);
+		/*background-color: #12213c;
+		color: rgba(255, 255, 255, 0.75);*/
+
+		/*background-color: #CEDBBB;
+		color: rgba(0, 0, 0, 1.0);*/
+
+		/*background-color: #1C5C76;
+		color: rgba(255, 255, 255, 1.0);*/
+
+		background-color: #224e63;
+		color: rgba(255, 255, 255, 1.0);
+
+		
+
+		
+
 		/*background-attachment: fixed;*/
 		/*background: url("images/overlay.png"), url("../../images/bg/birmingham4.jpg") 0 0 / cover*/
 		/*background-size: cover;*/
 	}
 
+	.wrapper.style2 a {
+    	color: #f3e860;
+	}
+
 	.wrapper.style3 {
-		background-color: #3766c1;
-		color: rgba(255, 255, 255, 0.5);
+		background-color: #73bd9c;
+		color: rgba(255, 255, 255, 1.0);
 		/*background-attachment: fixed;*/
 		/*background: url("../../images/bg/overlay.png"), url("../../images/bg/bg2.jpg") 0 0 / cover*/
 		background-size: cover;
 
+	}
+
+	.wrapper.style3 table tbody tr:nth-child(2n + 1) {
+    	background-color: rgba(255, 255, 255, 0.10);
 	}
 
 	.wrapper.style3 .feature {
@@ -376,7 +405,7 @@
 		padding: 0;
 		position: absolute;
 		top: 0;
-		font-smooth: 10em;
+		/*font-smooth: 10em;*/
 	}
 
 
@@ -411,10 +440,10 @@
 
 	#banner {
 		/*padding: 8em 0 6em 0;*/
-		background-color: #3766c1;
+		background-color: #101524;
 		color: rgba(255, 255, 255, 0.50);
 		background-attachment: fixed;
-		background-image: url("../../images/bg/overlay3.png"), url("../../images/bg/snapbot_bg3.jpg");
+		background-image: url("../../images/bg/overlay_70.png"), url("../../images/bg/snapbot_bg2.jpg");
 	    /* background-image: url("../../images/bg/snapbot_bg3.jpg"); */
 
 		background-position: -300px -300px;
@@ -436,7 +465,7 @@
 	}	
 
 	#banner .bighero-font {
-		color: #fff;
+		color: #ef9825;
 		font-size: 3em;
 		margin: 0 0 0.2em 0;
 		padding: 0;
