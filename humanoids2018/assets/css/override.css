@@ -447,8 +447,6 @@
 		color: rgba(255, 255, 255, 0.50);
 		background-attachment: fixed;
 		background-image: url("../../images/bg/overlay_70.png"), url("../../images/bg/snapbot_bg2.jpg");
-	    /* background-image: url("../../images/bg/snapbot_bg3.jpg"); */
-
 		background-position: -300px -300px;
 		/*background-size: cover;
 		/*text-align: center;*/
