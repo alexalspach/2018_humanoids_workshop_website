@@ -2518,7 +2518,7 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		border-radius: 2.5em;
+		border-radius: 0.5em;
 		border: 0;
 		cursor: pointer;
 		display: inline-block;
